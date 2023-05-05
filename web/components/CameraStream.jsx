@@ -16,7 +16,7 @@ const Camera = () => {
             <h1>Camera Stream</h1>
             <video
                 style={{
-                    filter: 'blur(5px);'
+                    filter: 'blur(2px);'
                 }}
                 className="background-video"
                 autoPlay
