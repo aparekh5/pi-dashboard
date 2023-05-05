@@ -4,6 +4,7 @@ import WeatherClock from "@/components/WeatherClock";
 import StockPrices from "@/components/StockPrices";
 import MarsImage from "@/components/MarsImage";
 import LatestNews from "@/components/LatestNews";
+import CameraStream from "@/components/CameraStream";
 
 const Container = styled.div`
   display: grid;
@@ -31,7 +32,7 @@ export default function Home() {
           <StockPrices/>
           <MarsImage/>
           <LatestNews/>
-        <GridItem>Item 5</GridItem>
+        <CameraStream/>
           <GridItem>An IOT project by Aryaman Parekh, Peter Chiu, Kartik Mehra</GridItem>
       </Container>
     </>
