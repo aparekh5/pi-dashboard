@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 import WeatherClock from "@/components/WeatherClock";
+import StockPrices from "@/components/StockPrices";
+import MarsImage from "@/components/MarsImage";
+import LatestNews from "@/components/LatestNews";
 
 const Container = styled.div`
   display: grid;
@@ -14,6 +17,7 @@ const GridItem = styled.div`
   border: 1px solid #ccc;
   padding: 1rem;
   text-align: center;
+  font-size: 30px;
 `;
 
 export default function Home() {
@@ -24,11 +28,11 @@ export default function Home() {
       </Head>
       <Container>
           <WeatherClock/>
-          <GridItem>Item 2</GridItem>
-          <GridItem>Item 3</GridItem>
-          <GridItem>Item 4</GridItem>
-          <GridItem>Item 5</GridItem>
-          <GridItem>Item 6</GridItem>
+          <StockPrices/>
+          <MarsImage/>
+          <LatestNews/>
+        <GridItem>Item 5</GridItem>
+          <GridItem>An IOT project by Aryaman Parekh, Peter Chiu, Kartik Mehra</GridItem>
       </Container>
     </>
   )
